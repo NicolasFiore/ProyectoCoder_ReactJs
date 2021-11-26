@@ -52,3 +52,10 @@ code {
 .menu li a:visited{
   color: white;
 }
+
+/* Carrito */
+
+#carrito{
+  width: 40px;
+  vertical-align: -15px;
+}
