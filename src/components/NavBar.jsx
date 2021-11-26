@@ -1,16 +1,17 @@
 import React from 'react'
+import '../index.css'
 
 const NavBar = () => {
     return (
         <>
-        <nav>
-            <img src="../img/logo.png" alt="logo" />
-            <h1>Fiore Compain</h1>
-            <ul>
-                <li>Incio</li>
-                <li>Productos</li>
-                <li>Quienes somos</li>
-                <li>Contacto</li>
+        <nav id="nav">
+            <img src="/src/img/logo.jpg" alt="logo" className="logo " />
+            <h1 className="titulo ">Fiore Compain</h1>
+            <ul className="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
         </>
