@@ -4,13 +4,14 @@ import  Nav  from 'react-bootstrap/Nav'
 import  NavDropdown  from 'react-bootstrap/NavDropdown'
 import './NavBar.css'
 import CartWidget from '../CartWidget/CartWidget'
+import Logo from '../../img/logo.jpg'
 
 const NavBar = () => {
     return (
         <>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <img src="/src/img/logo.jpg" alt="logo" className="logo " />
+                <img src={Logo} alt="logo" className="logo " />
                 <Navbar.Brand href="#home">Fiore Compain</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
