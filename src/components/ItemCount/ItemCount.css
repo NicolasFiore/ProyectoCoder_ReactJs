@@ -1,0 +1,9 @@
+button{
+    margin: 0px 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#stock{
+    text-decoration: underline;
+}

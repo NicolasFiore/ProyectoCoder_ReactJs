@@ -18,7 +18,7 @@ const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="#Inicio">Inicio</Nav.Link>
                         <NavDropdown title="Productos" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Remeras</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.1">Bermudas</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Buzos</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Gorras</NavDropdown.Item>
                         </NavDropdown>
